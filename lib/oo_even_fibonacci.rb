@@ -18,7 +18,7 @@ class EvenFibonacci
       break if sum > @limit
       fib_nums << sum if sum.even?
       prevN = nextN
-      nextN sum
+      nextN = sum
     end
     fib_nums.reduce(0, :+)
 end
