@@ -1,6 +1,6 @@
 # Implement your object-oriented solution here!
 
-class even_fibonacci_sum
+class EvenFibonacci
   attr_reader :limit, :sum
 
   def initialize(limit)
