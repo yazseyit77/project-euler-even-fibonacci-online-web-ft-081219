@@ -7,3 +7,5 @@ class even_fibonacci_sum
     @limit = limit
     @sum = sum
   end
+
+end
