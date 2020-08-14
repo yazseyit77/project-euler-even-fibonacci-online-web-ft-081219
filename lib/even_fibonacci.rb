@@ -7,4 +7,9 @@ def even_fibonacci_sum(limit)
   while sum < limit
     sum = prevN + nextN
     break if sum > limit
-    
+    fib_nums << sum if sum.even?
+    prevN = nextN
+    nextN = sum
+  end
+  fib_nums.reduce(0, :+)
+end
