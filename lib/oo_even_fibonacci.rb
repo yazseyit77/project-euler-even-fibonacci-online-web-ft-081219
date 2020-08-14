@@ -22,3 +22,4 @@ class EvenFibonacci
     end
     fib_nums.reduce(0, :+)
 end
+end
