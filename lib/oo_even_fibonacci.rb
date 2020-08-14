@@ -21,5 +21,5 @@ class EvenFibonacci
       nextN = sum
     end
     fib_nums.reduce(0, :+)
-end
+  end
 end
