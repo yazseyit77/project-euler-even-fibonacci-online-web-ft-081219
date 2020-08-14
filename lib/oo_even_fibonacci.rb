@@ -5,7 +5,7 @@ class EvenFibonacci
 
   def initialize(limit)
     @limit = limit
-    @sum = sum
+    @sum = self.sum()
   end
 
   def sum
